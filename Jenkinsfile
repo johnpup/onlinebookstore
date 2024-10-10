@@ -1,10 +1,10 @@
 pipeline {  
     agent any  
         stages {  
-       	    stage("git_checkout") {  
+       	    stage("git_checkout2") {  
            	    steps {  
-              	    echo "cloning repository" 
-              	    echo "repo cloned successfully"  
+              	    echo "new cloning repository" 
+              	    echo "new repo cloned successfully"  
               	    }  
          	    } 
         }
